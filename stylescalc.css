@@ -1,0 +1,61 @@
+/* Basic styles */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color:rgb(199, 197, 197);
+    font-size:30px;
+
+  }
+  
+  h1 {
+    text-align: center;
+
+    margin-bottom: 20px;
+  }
+  
+  /* Form styling */
+  form {
+    margin:auto;
+    padding:20px;
+    background-color: #7c7c7c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: fit-content; /* Adjust as needed */
+
+  }
+  
+  input[type="number"],
+  select {
+    width: 100px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  /* Result and error messages */
+  .result {
+    font-weight: bold;
+    color: green;
+    max-width: fit-content; /* Adjust as needed */
+    margin:25px auto;
+    padding:25px;
+    background-color: white;
+
+  }
+  
+
