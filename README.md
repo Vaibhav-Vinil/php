@@ -1,1 +1,1 @@
-ALL my porjects that make use of PHP
+All my projects that make use of PHP.
